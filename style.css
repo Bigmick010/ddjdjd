@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
+
+
+.navbar{
+    background-color: rgb(226, 0, 0);
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-linkactive{
+    text-decoration: none;
+    color: white;
+}
+
+
+.btn:hover{
+    background-color:rgb(226, 0, 0);
+}
+
+.carousel-item img{
+    height: 500px;
+    object-fit: cover;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(180, 210, 255, 0.13);
+    border-radius: 22px;
+}
+
+.card img{
+    height: 300px;
+}
+
+
+footer .footer-links a{
+    text-decoration: none;
+    color: white;
+   
+}
+
+footer{
+    background-color: rgb(182, 6, 6);
+    padding: 10px;
+}
+
+.footer-section ul li{
+    margin-top: 15px;
+} 
+
+
+    /* .footer-section{
+    background-color:rgb(133, 2, 2);
+}
+
+.company-info{
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1.0;
+}
+
+.footer-links li a{
+    text-decoration: none;
+    color: white;
+}
+
+.social-links{
+    color: white;
+    font-size: 20px;
+    /* font-weight: 600; */
+
+
+/* #contact{
+    background-color: rgb(226, 0, 0);
+    padding: 10px;
+} */ 
