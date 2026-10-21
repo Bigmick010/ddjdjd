@@ -17,3 +17,31 @@
     }, false)
   })
 })()
+
+const counters = document.querySelectorAll(".counter");
+
+counters.forEach(counter => {
+  const target = Number(counter.dataset.target);
+  let current = 0;
+  let direction = 1;
+
+  function animateCounter() {
+    counter.textContent = current + "+";
+
+    current += direction;
+
+    if (current > target) {
+      direction = -1;
+      current = target - 1;
+    }
+
+    if (current < 0) {
+      direction = 1;
+      current = 1;
+    }
+
+    setTimeout(animateCounter, 50);
+  }
+
+  animateCounter();
+});
